@@ -1,0 +1,25 @@
+query RunInput {
+  cart {
+    cost{
+      totalAmount{
+        amount
+      }
+    }
+    deliveryGroups {
+      id
+      deliveryOptions {
+        handle
+        title
+      }
+      selectedDeliveryOption {
+        handle
+        title
+      }
+    }
+  }
+  discountNode {
+    metafield(namespace: "$app:shipping-discount", key: "function-configuration") {
+      value
+    }
+  }
+}
