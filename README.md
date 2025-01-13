@@ -22,8 +22,15 @@ dev_store_url ="your_dev_store_url"
 ```
 or you can generate a new one.
 
-## 3. Deploy and Development
+## 3. App Configuration
 
+Install the node modules
+
+```shell
+npm i
+```
+
+## 4. Deploy and Development
 Deploy function extension and Access Scope
 
 ```shell
