@@ -1,10 +1,10 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "cd73947631fcb8e430ca616088525b69"
-application_url = "https://pressing-lace-herb-jewish.trycloudflare.com"
+client_id = "87fb92027ed6e09e29d205e3dfe79688"
+application_url = "https://guinea-stuart-addition-ended.trycloudflare.com"
 embedded = true
-name = "shipping-discounts"
-handle = "shipping-discounts-9"
+name = "shipping-discounts2"
+handle = "shipping-discounts2"
 
 [webhooks]
 api_version = "2025-01"
@@ -23,15 +23,15 @@ scopes = "write_discounts"
 
 [auth]
 redirect_urls = [
-  "https://pressing-lace-herb-jewish.trycloudflare.com/auth/callback",
-  "https://pressing-lace-herb-jewish.trycloudflare.com/auth/shopify/callback",
-  "https://pressing-lace-herb-jewish.trycloudflare.com/api/auth/callback"
+  "https://guinea-stuart-addition-ended.trycloudflare.com/auth/callback",
+  "https://guinea-stuart-addition-ended.trycloudflare.com/auth/shopify/callback",
+  "https://guinea-stuart-addition-ended.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
 embedded = false
 
 [build]
-dev_store_url = "shipping-discounts2.myshopify.com"
+dev_store_url = "shipping-discounts3.myshopify.com"
 automatically_update_urls_on_dev = true
 include_config_on_deploy = true

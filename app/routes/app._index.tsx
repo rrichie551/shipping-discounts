@@ -64,6 +64,7 @@ export default function Index() {
  const { discounts, appFunction } =  useLoaderData<LoaderData>();
  const navigate = useNavigate();
  const navigation = useNavigation();
+ console.log("Hello");
 
  if (discounts.length === 0) {
   return (
@@ -78,7 +79,7 @@ export default function Index() {
                       heading="Create Your First Shipping Discount"
                       action={{
                         content: "Create Discount",
-                        onAction: () => navigate("/app/shipping-discounts/8afec72f-cac6-4347-ae71-09c0fe02d2df/new")
+                        onAction: () => navigate(`/app/shipping-discounts/${appFunction[0].id}/new`)
                       }}
                     image="https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png"
                     >

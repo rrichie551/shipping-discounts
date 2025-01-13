@@ -1,17 +1,23 @@
 # Installation & Setup
 
-## 1. Environment Variables
+
+## 1. Cloning the Repo Locally
+```shell
+git clone https://github.com/rrichie551/shipping-discounts.git
+```
+
+
+## 2. Environment Variables
 Create `.env` file in the root directory:
 ```env
 SCOPES=write_discounts
 SHOPIFY_API_KEY=cd73947631fcb8e430ca616088525b69
 SHOPIFY_API_SECRET=804913082c094e083f2c1d5c4392dcdb
-SHOPIFY_SHIPPING_DISCOUNT_ID=8afec72f-cac6-4347-ae71-09c0fe02d2df
 APP_HANDLE=shipping-discounts-9
 ```
 replace the values with your own app values
 
-## 2. App Configuration
+## 3. App Configuration
 Update `shopify.app.toml`:
 
 ```toml
@@ -22,7 +28,7 @@ dev_store_url ="your_dev_store_url"
 ```
 or you can generate a new one.
 
-## 3. App Configuration
+## 4. Node Modules
 
 Install the node modules
 
@@ -30,7 +36,7 @@ Install the node modules
 npm i
 ```
 
-## 4. Deploy and Development
+## 5. Deploy and Development
 Deploy function extension and Access Scope
 
 ```shell
