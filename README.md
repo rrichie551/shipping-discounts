@@ -9,6 +9,7 @@ SHOPIFY_API_SECRET=804913082c094e083f2c1d5c4392dcdb
 SHOPIFY_SHIPPING_DISCOUNT_ID=8afec72f-cac6-4347-ae71-09c0fe02d2df
 APP_HANDLE=shipping-discounts-9
 ```
+replace the values with your own app values
 
 ## 2. App Configuration
 Update `shopify.app.toml`:
